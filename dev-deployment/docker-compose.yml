@@ -243,6 +243,6 @@ services:
     restart: always
 
   # Docker volume for Windows host
-#volumes:
+volumes:
    postgres:
 #  minio:
