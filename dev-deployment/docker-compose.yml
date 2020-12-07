@@ -87,7 +87,7 @@ services:
       POSTGRES_USER: rpuser
       POSTGRES_PASSWORD: rppass
       POSTGRES_DB: reportportal
-    volumes:
+    volumes: 
     # For windows host
        - postgres: /var/lib/postgresql/data
     # If you need to access the DB locally. Could be a security risk to expose DB.
